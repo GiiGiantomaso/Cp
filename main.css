@@ -1,0 +1,62 @@
+
+        /* Estilos gerais */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Estilos da parte superior (retângulo) */
+        .parte-superior {
+        
+            width: 100%;
+            height: 40vh; /* A parte superior ocupa 30% da altura da tela */
+            position: relative;
+            
+        }
+
+        /* Estilos das partes inferiores (quatro partes) */
+        .parte-inferior {
+            width: 50%; /* Cada parte inferior ocupa metade da largura da tela */
+            height: 35vh; /* Cada parte inferior ocupa 35% da altura da tela */
+            position: relative;
+            
+
+        }
+
+        /* Estilos das imagens */
+        .imagem {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Estilos do texto */
+        .texto {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+        }
+
+        .texto1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            color: aliceblue;
+        }
+        .texto3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            color: aliceblue;
+
+        }
+
+        
